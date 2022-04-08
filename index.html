@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="./style.css">
+        <script  type="text/javascript" src="./script.js"></script>
+        <title>Sitejs</title>
+    </head>
+    <body>
+        <!--If para chamar uma função-->
+        <div id="if">
+            <input type="password" id="senha">
+            <button onclick="OnClickHandler()">
+                Entrar
+            </button>
+        </div>
+        <!--SWITCH PARA ESCOLHER-->
+        <div id="switch">
+            <select id="opcoes">
+                <option value ="1">coxinha</option>
+                <option value ="2" >açai</option>
+                <option value ="3" >tomate</option>
+            </select>
+            <button onclick="Validadora()">
+                Selecionar
+            </button>
+        </div>
+        <!--FOR PARA CONTAGEM-->
+        <div id="counter">
+            <h1 id ="contador">
+                0
+            </h1>
+        <button onclick="clicado()">
+            Criar
+            </button>
+            <button onclick="reset()">
+                Reset
+            </button>
+
+        </div>
+        <!--FOR PARA EXIBIR-->
+        <div id="for">
+            <input id="qtd">
+            <button onclick="Produtos()">
+                Enviar Pedido
+            </button>
+            <div id="pedidos">
+            </div>
+            <div id="while">
+                <button onclick="Sorteio()">
+                    Sortear Um Numero
+                </button>
+                <div id="numeros">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
